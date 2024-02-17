@@ -1,7 +1,8 @@
-img {
-    display: none;
-}
 
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
 html, body, aside{
     height: 100%;
 
@@ -12,6 +13,15 @@ html, body, aside{
 .aside-wrap {
     width: 240px;
     background-image: linear-gradient(to bottom right, red, black);
+    padding: 100PX 20PX;
+    position: fixed;
+}
+
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
 }
 
 .aside-wrap .menu-list{
