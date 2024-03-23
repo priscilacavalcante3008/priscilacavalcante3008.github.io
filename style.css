@@ -110,6 +110,10 @@ section {
     
  }
 
+ .menu-label, #menu-check {
+    display: none;
+ }
+
  @media (max-width: 600px){
 
     section{
@@ -149,6 +153,8 @@ section {
         right: 0;
         background-color: #fff;
         margin: 5px;
+        z-index: 1;
+        font-size: 20px;
     }
 
     #menu-check{
